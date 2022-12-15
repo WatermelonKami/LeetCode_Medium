@@ -14,7 +14,6 @@ public:
         ListNode* l1_curr = l1;
         ListNode* l1_prev;
         ListNode* l2_curr = l2;
-        vector<int> output;
         int carry = 0;
 
         while(l1_curr != NULL || l2_curr != NULL)
